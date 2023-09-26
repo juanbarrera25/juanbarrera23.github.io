@@ -51,11 +51,10 @@ main nav{
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
-    border: 5px blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    margin-left: ;
 }   
+div{
+    margin-top: 1.5em; right:
+}
 #list {
     line-height: 1.5em;
 }
