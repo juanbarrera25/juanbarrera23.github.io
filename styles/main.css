@@ -45,16 +45,9 @@ main h3 {
     font-size: 105%;
 } 
 main nav{
-    margin-right: 1.5em;
-    margin-left: 2em;
-    border: 5px blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 0.5em;
+
 }   
-div{
-    margin-top: 1.5em; right:
-}
+
 #list {
     line-height: 1.5em;
 }
