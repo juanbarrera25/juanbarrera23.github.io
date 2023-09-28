@@ -1,9 +1,10 @@
 html{
     background-image: linear-gradient(to bottom, white 0%, #cada8a 100%);
 }
-
 bodY {
-    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 90%;
     background-color: white;
     font-family:Arial, Helvetica, Sans-serif;
     font-size: 100%;
@@ -15,7 +16,9 @@ bodY {
 }
 a:focus, a:hover{
     font-size: italic;
-    color:orangered 
+    color:orangered;
+    border: 3px blue;
+    border-style: dotted solid;
 }
 header h1{
     font-size: 175%;
@@ -32,3 +35,13 @@ img {
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
+} 
+article{
+    clear: both;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
