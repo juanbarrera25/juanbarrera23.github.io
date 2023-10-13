@@ -1,9 +1,12 @@
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
 }
 
 nav li {
@@ -21,19 +24,22 @@ nav li a {
 nav li a:hover {
   background-color: #111;
 }
+
 body {
   width: 95%;
   margin: 15px auto;
 }
+
 article {
   width: 75%;
 }
+
 aside {
   width: 20%;
   position: fixed;
   top: 0;
+  right: 0;
   bottom: 0;
-  background-color: #f1f1f1;
   overflow-y: auto;
 }
 
@@ -44,28 +50,25 @@ aside ol {
 aside ul {
   list-style-type: square;
 }
-/* Below the menu */
-nav {
-  border-bottom: 1px solid #ccc;
-}
 
-/* Between the columns */
-article {
-  border-right: 1px solid #ccc;
-}
-
-aside {
-  border-right: 1px solid #ccc;
-}
-
-/* Above the footer */
-article,
-aside {
+hr {
+  border: none;
   border-top: 1px solid #ccc;
+  margin: 20px 0;
 }
 
-/* Around the body */
-body {
-  border: 1px solid #ccc;
-  border-radius: 4px;
+#left-column {
+  float: left;
+  width: 75%;
+}
+
+#right-column {
+  float: right;
+  width: 20%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
